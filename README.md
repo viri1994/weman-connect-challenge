@@ -15,9 +15,19 @@ Please help this Corgi picking up all the Reactive materials. Do it for the sake
 
 ---
 
+
 ## Installing & Running 
 
 ### 1.- Clone this repository.
+```bash
+# Clonning.
+git clone https://gitlab.itexico.com/rrivera/weman-connect-challenge.git
+
+...
+
+# Go inside the downloaded folder.
+cd weman-connect-challenge
+```
 
 ### 2.- `npm install`
 
@@ -31,3 +41,11 @@ The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
 If you are having problems running this project, make sure that the port `3000` is not being used by other applications.
+
+---
+
+Once you run the project, you should something like this:
+
+![Game](./game.png)
+
+Click on the white frame to enable movement. Then, use the keyboard arrows to move Corgi around the map!.

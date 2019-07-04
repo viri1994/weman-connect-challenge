@@ -19,7 +19,6 @@ Array.from(Array(7)).forEach(() => {
     }
 });
 
-
 export const board = {
     mines,
     current: {
