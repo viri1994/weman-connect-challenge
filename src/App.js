@@ -25,7 +25,9 @@ class App extends React.Component {
     const mines = this.state.mines;
 
     if (!['ArrowRight', 'ArrowLeft', 'ArrowUp', 'ArrowDown'].includes(e.key)) {
+     
       return;
+      
     }
 
     if (e.key === 'ArrowRight') {
@@ -43,12 +45,31 @@ class App extends React.Component {
     } else if (current.row < 0) {
       current.row = 0;
     }
+    
 
     if (current.column >= COLUMNS) {
       current.column = COLUMNS - 1;
     } else if (current.column < 0) {
       current.column = 0;
     }
+
+
+
+    if (current.column [0] == current.column [1]) {
+     
+
+      
+    } else if (console.log(current)) {
+     
+    }
+
+    
+  
+
+    
+
+
+    
 
     // TODO: Did Corgi stepped in a Reactive material?
 
